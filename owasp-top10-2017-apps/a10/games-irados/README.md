@@ -150,6 +150,12 @@ However, we can also confirm that little information is being logged at the serv
     <img src="images/attack8.png"/>
 </p>
 
+To see logs in real time use:
+
+```bash
+sudo docker logs --follow <Container ID>
+```
+
 ## Secure this app
 
 How would you mitigate this vulnerability? After your changes, the new log system must give us: 
